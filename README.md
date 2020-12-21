@@ -32,7 +32,7 @@
   - [ ] C2B
   - [ ] Reversal
   - [ ] Account Balance
-- [] JengaWS(Equity)
+- [ ] JengaWS(Equity)
   - [ ] Send Money
   - [ ] Send Money Queries
   - [ ] Receive Money

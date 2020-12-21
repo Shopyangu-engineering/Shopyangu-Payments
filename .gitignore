@@ -29,3 +29,5 @@ setup.cfg
 /notes
 
 /app.yaml
+
+/dev-requirements.txt

@@ -1,4 +1,4 @@
-<p align="left"><img src="assets/logo.png" width="140"></p>
+<p align="left"><a href="https://www.shopyangu.com/"><img src="assets/logo.png" width="140"></a></p>
 
 
 # Shopyangu Payments :dollar: :pound: :yen: :euro:

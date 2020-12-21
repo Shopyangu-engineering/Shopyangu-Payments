@@ -1,7 +1,7 @@
 <p align="left"><a href="https://www.shopyangu.com/" target="_blank"><img src="assets/logo.png" width="140"></a></p>
 
 
-# Shopyangu Payments  :kes: :dollar: :pound: :yen: :euro:
+# Shopyangu Payments :dollar: :pound: :yen: :euro:
 
 > Payment Library For Most Public Payment API's in Kenya and hopefully Africa.
 
@@ -25,14 +25,14 @@
 
 
 ## Coming Soon Features
-- [x] Mpesa
-  - [x] STK Transaction Validation
-  - [x] B2C
-  - [x] B2B
-  - [x] C2B
-  - [x] Reversal
-  - [x] Account Balance
-- [x] JengaWS(Equity)
+- [ ] Mpesa
+  - [ ] STK Transaction Validation
+  - [ ] B2C
+  - [ ] B2B
+  - [ ] C2B
+  - [ ] Reversal
+  - [ ] Account Balance
+- [] JengaWS(Equity)
   - [ ] Send Money
   - [ ] Send Money Queries
   - [ ] Receive Money

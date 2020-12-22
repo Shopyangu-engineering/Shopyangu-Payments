@@ -81,6 +81,8 @@ class AbstractMpesaExpressRequest(models.Model):
     # When we receive the callback we check this to true
     # Regardless of the txn being successful or failed
 
+    callback_received_on = models.DateTimeField(blank=True, null=True)
+
     queried = models.BooleanField(default=False)
     # If we don't receive the callback we do a
     # query to the safaricom API

@@ -21,7 +21,7 @@ class MpesaBase:
     def authenticate(self):
         raise NotImplementedError
 
-    def process_kwargs(self, expected_keys, **kwargs):
+    def process_kwargs(self, expected_keys, expecting_more_kwargs=False, ** kwargs):
         """
         Check for any expected but missing keyword arguments
         and raise a MissingArgumentError and check if unexpected keyword arguments are provided
@@ -35,8 +35,14 @@ class MpesaBase:
                 raise ValueError("Missing keyword argument: %s" % key)
             else:
                 payload[key] = value
+
         if len(kwargs.keys()) != 0:
-            raise ValueError('Unepxected kwargs provided: %s' % list(kwargs.keys()))
+            if expecting_more_kwargs:
+                final_payload = []
+                final_payload.extend([payload, kwargs])
+                return final_payload
+            else:
+                raise ValueError('Unepxected kwargs provided: %s' % list(kwargs.keys()))
 
         return payload
 
